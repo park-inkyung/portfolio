@@ -64,7 +64,9 @@ body{
 header{
   width:1400px;
   margin:0 auto;
- /*  background:#333; */
+  /* position:fixed;
+  z-index:999999;
+  background:rgba(248, 149, 149, 0.5); */
 }
 
 
@@ -73,9 +75,8 @@ header{
   width:20%;
   height:150px;
   display:inline-block;
-  /* background:#999; */
 }
-.top_logo{
+.top_logo img{
   width:250px;
 }
 
@@ -920,10 +921,10 @@ header{
   box-sizing:border-box;
   position:relative;
   box-shadow:5px 5px 20px #ffe7c1, 0 0 10px #f1f1f1;
-  background:linear-gradient(-20deg,
+/*   background:linear-gradient(-20deg,
   #d1c8ef 10%,
   #f3ddba 50%,
-  #f6c5c5 80%);
+  #f6c5c5 80%); */
 }
 #responsive>h2{
   font-family: 'Poppins', sans-serif;
@@ -1118,11 +1119,11 @@ header{
   width:100%;
   height:1100px;
   box-sizing:border-box;
-  box-shadow:5px 5px 20px #fc9992, 0 0 10px #d6c5f4;
+  box-shadow:5px 5px 20px #ffd8cc, 0 0 10px #d6c5f4;
   background:linear-gradient(-20deg,
-  #ddb3a9 10%,
-  #f4b9b0 50%,
-  #f0b6a1 80%);
+  #ffd8cc 10%,
+  #ffeedb 50%,
+  #fae0d8 80%);
 }
 .mobile_back{
   position:relative;
@@ -1135,14 +1136,15 @@ header{
   left:0;
   width:40%;
   height:100%;
-  background:rgb(250, 228, 223, 0.4);
+  background:rgba(247, 233, 230, 0.2);
 }
 .le_back h2{
   font-family: 'Poppins', sans-serif;
   font-size:80px;
   font-weight:bold;
   color:#f49797;
-  padding:3% 0;
+  margin-top:50px;
+  padding:5% 0;
   text-align:center;
 }
 .le_mobile{
@@ -1183,25 +1185,29 @@ header{
   width:60%;
   height:100%;
   font-family: 'Poppins', sans-serif;
-  letter-spacing:5px;
 }
 .ri_textin1{
   font-size:28px;
-  font-weight:bold;
-  color:#fff;
-  margin-top:20px;  
+  font-weight:900;
+  color:#0b1d37;
+  margin-top:20px;
+  letter-spacing:5px;
 }
 .ri_textin2{
   font-size:16px;
-  color:#fff;
+  font-weight:600;
+  color:#24344b;
   margin-top:20px;  
-  text-shadow:5px 5px 10px #333;
+  letter-spacing:3px;
+  /* text-shadow:5px 5px 10px #333; */
 }
 .ri_sub_title{
   font-size:16px;
-  color:#fff;
+  font-weight:600;
+  color:#24344b;
   line-height:40px;
   margin-right:10px;
+  letter-spacing:3px;
 }
 .ri_sub_title img{
   margin:6px 6px 0 0;
@@ -1214,12 +1220,13 @@ header{
   margin-top:20px;
   border:none;
   font-size:14px;
-  color:#fff;
-  background:rgba(240, 222, 219, 0.4);
+  font-weight:600;
+  color:#ffeedb;
+  background:rgba(11, 29, 55, 0.7);
   letter-spacing:5px;
 }
 .ri_btn:hover{
-  color:crimson;
+  background:rgba(11, 29, 55);
 }
 
 /* ________________planning________________ */
@@ -1282,7 +1289,7 @@ header{
 	height:900px;
 	position:relative;
   top:0;
-  left:-100px;
+  left:0;
 }
 .webplan_img{
   position:absolute;
