@@ -194,7 +194,7 @@ $(document).ready(function () {
 
     $(".modal_pop_body").scrollTop(0);
 
-    if (k_pop < 9) {
+    if (k_pop < 8) {
       $(".modal_in>li").eq(k_pop).stop(true,true).fadeOut();
       k_pop++;
       $(".mo_page span:nth-child(1)").text(k_pop + 1);
